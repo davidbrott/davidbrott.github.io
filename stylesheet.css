@@ -1,49 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+nav .navbar-nav li a {
+    color: #ECEFF1 !important;
+    font-weight: normal;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    color: #616161;
+    background-color: #ECEFF1;
+    color: #000000;
 }
 
-.container {
-    display: grid;   
-    grid-template-columns: 180px 180px 180px 180px;
-    justify-content: center;
-    grid-column-gap: 60px;
-    grid-row-gap: 20px;
-    margin-top: 75px;
-    overflow: hidden;
+#section-title {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.item {
-    display: flex; 
-    flex-direction: column; 
-    justify-content:center; 
-    width: 180px; 
-    height: 180px;
-    padding: 18px;
-    border: 2px solid;
-    border-radius: 5px;
-    border-color: #F5F5F5;
-    background-color: #F5F5F5;
-    text-align: center;
-    overflow: hidden;      
+#section-navigation {   
+    height: 50px;
+    line-height: 50px;
+    background-color: #37474F;
+}
+
+#section-portfolio {
+    margin-top: 50px;
 }
 
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
+    color: #ECEFF1;
 }
 
-a:link, a:visited, a:hover, a:active {
-    color: #616161; 
+.card-text {
+    font-size: small;
 }
 
-.icon-table {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.card-link:link, .card-link:visited, .card-link:active {
+    text-decoration: none;
+    color: #000;
 }
 
-
-
+.card-link:hover {
+    opacity: 0.0;
+}

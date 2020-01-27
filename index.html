@@ -5,64 +5,91 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/3a2c7b2487.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/3a2c7b2487.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesheet.css">
   <title>davidbrott.github.io</title>
 </head>
 
 <body>
-  <header>
-    <!--
-    <p>davidbrott.github.io</p>
-    -->
-  </header>
-  <div class="container">    
-    <a href="https://github.com/davidbrott/Rock-Paper-Scissors" target="_blank">
-      <div class="item">
-        <table class="icon-table">          
-          <tr>
-            <td><i class="fab fa-js fa-2x"></i></td>
-            <td><i class="fas fa-code fa-2x"></i></td>
-          </tr>          
-        </table>
-        <p>Rock-Paper-Scissors</p>
+  <div class="container-fluid">
+    <div id="section-navigation" class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4">
+        <a href="davidbrott.github.io">Portfolio</a>
       </div>
-    </a>
-    <a href="https://github.com/davidbrott/myBudget" target="_blank">
-      <div class="item">
-        <table class="icon-table">
+      <div class="col-sm-4">
+        <table style="width: auto; margin-right: 0px; margin-left: auto">
           <tr>
-            <td><i class="fab fa-angular fa-2x"></i></td>
-            <td><i class="fas fa-code fa-2x"></i></td>
+            <td><a href="https://github.com/davidbrott" target="_blank"><i class="fab fa-github fa-1x"></i></a></td>
+            <td style="padding: 0 0 0 15px"><a href="#"><i class="fab fa-xing 1x"></i></a></td>
           </tr>
         </table>
-        <p>myBudget</p>
       </div>
-    </a>
-    <a href="https://github.com/davidbrott/myAssets" target="_blank">
-      <div class="item">
-        <table class="icon-table">
-          <tr>
-            <td><i class="fab fa-angular fa-2x"></i></i></td>
-            <td><i class="fas fa-code fa-2x"></i></td>
-          </tr>
-        </table>
-        <p>myAssets</p>
+      <div class="col-sm-2"></div>
+    </div>
+    <div id="section-portfolio" class="row">
+      <div class="col-sm-2">
       </div>
-    </a>
-    <a href="https://github.com/davidbrott/meineNotizen" target="_blank">
-      <div class="item">
-        <table class="icon-table">
-          <tr>
-            <td><i class="fab fa-android fa-2x"></i></i></td>
-            <td><i class="fab fa-java fa-2x"></i></td>
-          </tr>
-        </table>
-        <p>myNotes</p>
+      <div class="col-sm-2">
+        <a class="card-link" href="https://github.com/davidbrott/Rock-Paper-Scissors" target="_blank">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title">Rock-Paper-Scissors</h6>
+              <p class="card-text">The game Rock-Paper-Scissors.</p>
+              <p class="card-text"><small class="text-muted">JavaScript, HTML</small></p>
+            </div>
+          </div>
+        </a>
       </div>
-    </a>    
-  </div>  <footer>
-
-  </footer>
+      <div class="col-sm-2">
+        <a class="card-link" href="https://github.com/davidbrott/myBudget" target="_blank">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title">myBudget</h6>
+              <p class="card-text">App for creating a personal budget.</p>
+              <p class="card-text"><small class="text-muted">Angular, HTML, CSS</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-2">
+        <a class="card-link" href="https://github.com/davidbrott/myAssets" target="_blank">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title">myAssets</h6>
+              <p class="card-text">App for creating an overview of personal assets.</p>
+              <p class="card-text"><small class="text-muted">Angular, HTML, CSS</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-2">
+        <a class="card-link" href="https://github.com/davidbrott/meineNotizen" target="_blank">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title">meineNotizen</h6>
+              <p class="card-text">App for taking notes.</p>
+              <p class="card-text"><small class="text-muted">Java, Android</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-2">
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
